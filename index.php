@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <?php include('includes/header.php');?>
+
+    <br>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <img src="img/img1.jpeg" alt="Image">
+            </div>
+            <div class="col">
+                <img src="img/img3.jpeg" alt="Image">
+
+            </div>
+            <div class="col">
+                <img src="img/img5.jpeg" alt="Image">
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <h4>Keep your car newer</h4>
+
+            </div>
+            <div class="col">
+                <h4>Exterior & Interior Washing</h4>
+            </div>
+            <div class="col">
+                <h4>Quality service for you</h4>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-img">
+                        <img src="img/about1.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="section-header text-left">
+                        <p>About Us</p>
+                        <h2>Car Washing and Detailing</h2>
+                    </div>
+                    <div class="about-content">
+                        <p>
+                            All types of car services are available here.
+                            The main aim is to provide a high quality,
+                            full-service car wash which will include complete car detailing,
+                            restaurant, and gift shop so that customers will perceive great value
+                            and give them the opportunity to have an enjoyable meal while their
+                            car is being washed or detailed.
+
+                        </p>
+                        <ul>
+                            <li><i class="fa fa-check-circle"></i>Interior Wet Cleaning</li>
+                            <li><i class="fa fa-check-circle"></i>Window Wiping</li>
+                            <li><i class="fa fa-check-circle"></i>Vacuum Cleaning</li>
+                            <li><i class="fa fa-check-circle"></i>Seats Washing</li>
+                        </ul>
+                        <a class="btn btn-custom" href="about.php">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+    <!-- Service Start -->
+    <div class="service">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>What We Do?</p>
+                    <h2>Premium Washing Services</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-item">
+                            <!-- <i class="flaticon-car-wash-1"></i> -->
+                            <img src="1.png" height="125px" width="125px">
+                            <h3>Exterior Washing</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-item">
+                            <!-- <i class="flaticon-car-wash"></i> -->
+                            <img src="2.png" height="125px" width="125px">
+
+                            <h3>Interior Washing</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-item">
+                            <!-- <i class="flaticon-vacuum-cleaner"></i> -->
+                            <img src="3.png" height="125px" width="125px">
+
+                            <h3>Vacuum Cleaning</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-item">
+                            <!-- <i class="flaticon-seat"></i> -->
+                            <img src="4.png" height="125px" width="125px">
+
+                            <h3>Seats Washing</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-item">
+                            <!-- <i class="flaticon-car-service"></i> -->
+                            <img src="5.png" height="125px" width="125px">
+
+                            <h3>Window Wiping</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-item">
+                            <!-- <i class="flaticon-car-service-2"></i> -->
+                            <img src="6.png" height="125px" width="125px">
+
+                            <h3>Wet Cleaning</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-item">
+                            <!-- <i class="flaticon-car-wash"></i>  -->
+                            <img src="7.png" height="125px" width="125px">
+
+                            <h3>Oil Changing</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-item">
+                            <!-- <i class="flaticon-brush-1"></i> -->
+                            <img src="8.png" height="125px" width="125px">
+
+                            <h3>Brake Reparing</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                
+
+<div class="facts">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="facts-item">
+                        <i class="fa fa-map-marker-alt"></i>
+                        <div class="facts-text">
+                            <h3 data-toggle="counter-up">20</h3>
+                            <p>Service Points</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="facts-item">
+                        <i class="fa fa-user"></i>
+                        <div class="facts-text">
+                            <h3 data-toggle="counter-up">300</h3>
+                            <p>Engineers & Workers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="facts-item">
+                        <i class="fa fa-users"></i>
+                        <div class="facts-text">
+                            <h3 data-toggle="counter-up">1550</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="facts-item">
+                        <i class="fa fa-check"></i>
+                        <div class="facts-text">
+                            <h3 data-toggle="counter-up">2500</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JS Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+
+
+    <!-- Template Js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+<?php 
+   include('includes/footer.php');
+?>
